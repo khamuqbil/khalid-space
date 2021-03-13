@@ -13,8 +13,8 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/desk-background-2.jpg) no-repeat center center fixed;
-    /* background-color : #202020; */
+    /* background: url(../images/backgrounddev.jpg) no-repeat center center fixed; */
+    background-color : #303030;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -226,7 +226,7 @@ html {
   -webkit-overflow-scrolling: touch;
   background-color: #2C3E50;
   box-sizing: border-box;
-  height: 100vh;  
+  height: 100vh;
   max-height: 100vh !important;
   max-width: 80vw !important;
   min-width: 45px !important;
@@ -235,7 +235,7 @@ html {
   overflow-y: auto !important;
   padding: 0;
   position: fixed !important;
-  top: calc(0px);  
+  top: calc(0px);
   width: 20%;
   will-change: transform;
   z-index: 9999 !important;
@@ -691,7 +691,7 @@ section.contact-me {
     }
 }
 
-@media screen and (max-width: 1680px) and (min-width: 846px) { 
+@media screen and (max-width: 1680px) and (min-width: 846px) {
     .menu .social-network ul li a {
         width: 36px;
         height: 36px;
@@ -743,15 +743,15 @@ section.contact-me {
 #menu-toggle,
 #menu-close {
     display: none;
-}  
+}
 
-@media screen and (max-width: 845px) {        
+@media screen and (max-width: 845px) {
     #menu-toggle,
     #menu-close {
         display: inline-block;
-    }    
+    }
 
-    .menu {        
+    .menu {
         width: 320px;
         -webkit-transform: translateX(-100%) !important;
         transform: translateX(-100%) !important;
@@ -761,7 +761,7 @@ section.contact-me {
     }
 
     .menu .image {
-        margin-top: 40px;        
+        margin-top: 40px;
     }
 
     .menu .image img {
